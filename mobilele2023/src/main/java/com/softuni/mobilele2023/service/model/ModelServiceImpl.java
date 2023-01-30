@@ -20,6 +20,6 @@ public class ModelServiceImpl implements ModelService, DataBaseInitService {
 
     @Override
     public boolean isdbInit() {
-        return this.modelRepository.count() >0;
+        return this.modelRepository.count() > 0;
     }
 }

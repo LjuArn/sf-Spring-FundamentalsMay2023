@@ -2,14 +2,13 @@ package com.softuni.mobilele2023.domain.DTOs;
 
 import java.util.Date;
 
-public class BrandDTO extends BaseEntityDTO{
+public class BrandDTO extends BaseEntityDTO {
 
     private String name;
 
     private Date created;
 
     private Date modified;
-
 
 
     public String getName() {

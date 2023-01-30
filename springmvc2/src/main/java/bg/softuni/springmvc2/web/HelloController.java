@@ -9,7 +9,7 @@ public class HelloController {
 
 
     @GetMapping("/hello2")
-    public ModelAndView hello (ModelAndView modelAndView){
+    public ModelAndView hello(ModelAndView modelAndView) {
         modelAndView.addObject("num", 999);
         modelAndView.setViewName("helloworld");
         return modelAndView;

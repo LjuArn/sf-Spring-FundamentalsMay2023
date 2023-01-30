@@ -9,12 +9,12 @@ import java.util.Date;
 
 @Entity
 @Table(name = "offers")
-public class OfferEntity extends BaseEntity{
+public class OfferEntity extends BaseEntity {
 
     @Column
     private String description;
 
-    @Column(name="engine")
+    @Column(name = "engine")
     @Enumerated(EnumType.STRING)
     private EngineEnum engineEnum;
 
@@ -27,7 +27,7 @@ public class OfferEntity extends BaseEntity{
     @Column
     private BigDecimal price;
 
-    @Column(name="transmission")
+    @Column(name = "transmission")
     @Enumerated(EnumType.STRING)
     private TransmissionEnum transmissionEnum;
 

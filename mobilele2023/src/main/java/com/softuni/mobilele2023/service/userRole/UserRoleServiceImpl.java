@@ -20,6 +20,6 @@ public class UserRoleServiceImpl implements UserRoleService, DataBaseInitService
 
     @Override
     public boolean isdbInit() {
-        return this.userRoleRepository.count()>0;
+        return this.userRoleRepository.count() > 0;
     }
 }

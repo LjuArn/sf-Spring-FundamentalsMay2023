@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloControler {
 
     @GetMapping("/hello")
-    public ModelAndView hello(ModelAndView modelAndView){
+    public ModelAndView hello(ModelAndView modelAndView) {
 
         modelAndView.addObject("num", 6);
         modelAndView.setViewName("helloworld");
